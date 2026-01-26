@@ -1,0 +1,62 @@
+#cheese {
+    position: absolute;
+    float: left;
+    margin-top: 200px;
+    animation: cheese 10s ease infinite;
+}
+#rat1 {
+    position: absolute;
+    float: right;
+    margin-top: 200px;
+    animation: moveRat1 10s ease infinite;
+}
+
+#rat2 {
+    position: absolute;
+    float: right;
+    margin-top: 200px;
+    animation: moveRat2 10s ease infinite;
+}
+
+#rat3 {
+    position: absolute;
+    float: right;
+    margin-top: 200px;
+    animation: moveRat3 10s ease infinite;
+}
+
+@keyframes cheese {
+    90% { opacity: 1;}
+    91% { opacity: 0;}
+    95% { opacity: 0;}
+    100% { opacity: 0;}
+}
+@keyframes moveRat1 {
+    0% { right: 0; opacity: 1; }
+    49% { right: 49%; opacity: 1;}
+    50% { right: 49%; opacity: 0;}
+    90% { right: 49%; opacity: 0;}
+    91% { right: 49%; opacity: 0;}
+    95% { right: 49%; opacity: 0;}
+    100% { right: 49%; opacity: 0;}
+}
+
+@keyframes moveRat2 {
+    0% { right: 0; opacity: 0; }
+    49% { right: 49%; opacity: 0;}
+    50% { right: 49%; opacity: 1;}
+    90% { right: 49%; opacity: 1;}
+    91% { right: 49%; opacity: 0;}
+    95% { right: 49%; opacity: 0;}
+    100% { right: 49%; opacity: 0;}
+}
+
+@keyframes moveRat3 {
+    0% { right: 0; opacity: 0; }
+    49% { right: 49%; opacity: 0;}
+    50% { right: 49%; opacity: 0;}
+    90% { right: 49%; opacity: 0;}
+    91% { right: 49%; opacity: 1;}
+    95% { right: 49%; opacity: 1;}
+    100% { right: 49%; opacity: 1;}
+}
