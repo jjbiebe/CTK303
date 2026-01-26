@@ -1,0 +1,95 @@
+main {
+  grid-column: span 9;
+  background-color: rgba(0, 20, 125, 1);
+  margin-bottom: 45px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+main h2 {
+  border-top-left-radius: 15px;
+}
+
+main h2 a {
+  display: block;
+  padding: 26px;
+  text-decoration: none;
+  border-top-left-radius: 15px;
+  transition: all 0.5s;
+}
+
+aside {
+  grid-column: span 3;
+  background-color: rgba(0, 20, 125, 1);
+  margin-bottom: 45px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 5px;
+}
+
+aside h2 {
+  border-top-right-radius: 15px;
+}
+
+aside h2 a {
+  display: block;
+  padding: 26px;
+  text-decoration: none;
+  border-top-right-radius: 15px;
+  transition: all 0.5s;
+}
+
+aside p {
+  text-align: justify;
+  background-color: rgba(10, 20, 95, 1);
+  padding: 16px;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+h2, h2 a {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(26, 74, 157, 1);
+  color: rgba(192, 192, 193, 1);
+}
+
+h2 a:hover {
+  color: rgba(243, 243, 243, 1);
+  background-color: rgba(4, 31, 172, 1);
+}
+
+#float_middle, #myCarousel {
+  display: block;
+  margin: 16px 16px 16px 64px;
+  border-radius: 10px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: rgba(26, 74, 157, 1);
+  border-radius: 10px;
+}
+
+.f-carousel {
+  --f-button-width: 50px;
+  --f-button-height: 50px;
+
+  --f-button-svg-width: 24px;
+  --f-button-svg-height: 24px;
+  --f-button-svg-stroke-width: 5.0;
+
+  --f-button-color: rgba(4, 31, 172, 1);
+  --f-button-hover-color: rgba(10, 20, 95, 1);
+  --f-button-border-radius: 70%;
+
+  --f-button-bg: rgba(192, 192, 193, 1);
+  --f-button-hover-bg: rgb(212, 212, 212);
+  --f-button-active-bg: rgb(175, 175, 175);
+}
+
+.f-carousel__dots {
+  display: none;
+}

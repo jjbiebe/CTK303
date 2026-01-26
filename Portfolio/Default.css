@@ -1,0 +1,144 @@
+body {
+    background-color: #999999;
+    color: rgba(192, 192, 193, 1);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    padding: 24px;
+    background-color: rgba(192, 192, 193, 1);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  #Media_Links {
+    grid-column: span 3;
+    display: inline-flex;
+    text-align: center;
+    line-height: 32px;
+    border-left: 5px solid rgba(192, 192, 193, 1);
+  }
+
+  #current_page {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
+  }
+  
+  .Media_Icon {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(10, 20, 95, 1);
+    border-radius: 50%;
+    margin: 16px;
+  }
+  
+  body {
+    font-family: "Baumans", Arial, sans-serif;
+  }
+
+  header {
+    grid-column: span 12;
+  }
+
+  nav {
+    grid-column: span 12;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 16px 48px 16px 48px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+  }
+  
+  nav li a {
+    display: block;
+    width: 270px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(192, 192, 193, 1);
+    background-color: rgba(0, 20, 125, 1);
+    padding: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  nav li a:hover {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
+    width: 300px;
+  }
+
+  footer {
+    grid-column: span 12;
+    background-color: rgba(26, 74, 157, 1);
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-radius: 10px;
+  }
+  
+  footer h3 {
+    grid-column: span 9;
+    padding: 16px;
+    margin: 2px 0 0 12px;
+  }
+  
+  footer h3 a {
+    text-decoration: underline;
+    color: rgba(192, 192, 193, 1);
+    transition: color 0.5s;
+  }
+  
+  footer h3 a:hover {
+    text-decoration: underline;
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(26, 74, 157, 1);
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: rgba(192, 192, 193, 1);
+    transition: all 0.5s;
+  }
+  
+  footer a:hover {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(26, 74, 157, 1);
+    border-radius: 20px;
+  }
+  
+  h1 a {
+    padding: 32px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgba(192, 192, 193, 1);;
+    display: block;
+    border-radius: 20px;
+    transition: all 0.5s;
+  }
+  
+  h1 a:hover {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
+  }

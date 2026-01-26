@@ -1,0 +1,38 @@
+article {
+    grid-column: span 6;
+    border-radius: 15px;
+    background-color: rgba(0, 20, 125, 1);
+    margin: 0 15px 45px 15px;
+}
+
+article p {
+    text-align: justify;
+    background-color: rgba(10, 20, 95, 1);
+    padding: 16px;
+    margin: 16px;
+    border-radius: 10px;
+  }
+
+h2 {
+    display: block;
+    padding: 13px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(26, 74, 157, 1);
+    color: rgba(192, 192, 193, 1);
+  }
+
+  .float_middle {
+    width: 480px;
+    display: block;
+    margin: 16px 24px 16px;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(26, 74, 157, 1);
+  }
+
+  .article_title {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
