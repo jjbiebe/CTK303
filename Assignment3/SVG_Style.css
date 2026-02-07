@@ -1,0 +1,83 @@
+body {
+    background-image: url(ocean.jpg);
+}
+
+#SVG_Fish {
+    width: 500px;
+    display: block;
+    transform: translate(0px, 300px);
+    animation: fish_move ease 24.0s infinite;
+}
+
+@keyframes fish_move {
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(125%);
+    }
+
+    90%{
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(250%);
+        opacity: 0;
+    }
+}
+
+#Fin {
+    animation: fin_move ease-in-out 2s infinite;
+    transform-origin: 20% 50%;
+}
+
+@keyframes fin_move {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: translate(60px, 0px) rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+#Eye {
+    animation: eye_move ease 10s infinite;
+}
+
+@keyframes eye_move {
+    0% {
+        opacity: 1;
+    }
+
+    49% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    76% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
