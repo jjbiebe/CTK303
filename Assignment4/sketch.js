@@ -37,7 +37,7 @@ function setup() {
   
   fishArray = [img3, img4, img5];
   
-  createCanvas(windowWidth, windowHeight).parent("game");
+  createCanvas(960, 540).parent("game");
   rectMode(CENTER);
   for (let i = 0; i < 17; i++) {
      cars.push(new Car(random(fishArray))); // pushes onto an array called “cars”
